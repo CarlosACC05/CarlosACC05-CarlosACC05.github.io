@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <a href="#" class="logo">
+            <img src ="../Multimedia/logo.jpeg" alt="Pagina logo">
+            <h2 class="nombrep">NaturaAmbient</h2>
+
+
+        </a>
+        <nav>
+
+            <a href="../Home.html" >Inicio</a>
+            <a href="../Acciones/Proteccion_del_medio.html" >Proteccion del medio </a>
+            <a href="../Problemas/Problemas_ambientales.html" >Problemas </a>
+            <a href="../Acciones/Acciones para reducir el impacto ambiental.html" >Acciones</a>
+            <a href="../Acciones/Proyecto de conservacion ambiental.html" >Proyectos </a>
+            <a href="../Problemas/Animales en peligro de extincion.html" >Peligro de exitincion</a>
+            <a href="Contacto.html" >Contacto</a>
+
+        </nav>
+
+
+    </header>
+
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros. Responderemos a tu mensaje a la brevedad posible.</p>
+    </section>
+
+    <section>
+        <form method="post" action="contacto_procesar.php">
+            <fieldset>
+                <legend>Información Personal</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@dominio.com" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="614-456-7890">
+
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha" name="fecha" min="1900-01-01" max="2024-12-31" required>
+
+                <label for="genero">Género:</label>
+
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label>
+
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Prefiero no especificar</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Detalles del Mensaje</legend>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </fieldset>
+
+          
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button><br><br>
+        </form>
+        
+    </section>
+
+    <footer class="flex">
+      
+        <div></div>
+        <nav>
+          
+           <a href="#">Política de privacidad</a>
+           <a href="#">Términos de servicio</a>
+           <a href="#">Contacto</a>
+            <a href="#">Redes sociales</a>
+         
+        </nav>
+    	</div>
+        <div>
+        <p>2024 Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    
+    
+</body>
+</html>

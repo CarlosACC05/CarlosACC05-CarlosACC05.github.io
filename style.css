@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20PX;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo img {
+    padding-top: 10PX;
+    height: 60px;
+     
+ }
+ .logo h2 {
+ margin-left: 10px;     
+  }
+ 
+ .logo{
+    display: flex;
+ 
+ }
+
+a{
+    text-decoration:none;
+    color: greenyellow;
+
+
+}
+nav a{
+    padding-right: 15PX;
+
+}
+
+nav a:hover{
+
+    color: white;
+    text-decoration: underline;
+}
+.flex{
+    flex-direction: column;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    padding: 10px;
+    align-items: center;
+    color: white;
+    
+
+}
+
+footer address {
+    margin: 0px;
+}
+
+
+
+footer nav a {
+    color: greenyellow; 
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline; 
+}
+
+footer p {
+    margin: 0; 
+   
+}
+
+table,th,td{
+    border: 2px solid black;}
+
+section,img,aside,table{
+    
+    margin-left: 30px;
+    align-items: center;
+}
+
+.imagen_ambiente{
+    width: 500px;
+
+}
